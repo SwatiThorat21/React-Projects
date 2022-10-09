@@ -1,9 +1,18 @@
-import React from 'react'
+import React from "react";
 
-function Main(){
-     return(
-        <h1>Main component</h1>
-     )
+function Main() {
+  return (
+    <div className="main_section">
+      <h1 className="main-title">Fun facts about React</h1>
+      <ul className="main-facts">
+        <li>Was first released in 2013</li>
+        <li>Was originally created by Jordan Walke</li>
+        <li>Has well over 100k stars on GitHub</li>
+        <li>Is maintained by Facbook</li>
+        <li>Powers thousands of enterprise apps, including mobile apps </li>
+      </ul>
+    </div>
+  );
 }
 
-export default Main
+export default Main;
