@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+#profile-img {
+  width: 317px;
+  height: 317px;
+}
+
+.container-1 {
+  background-color: #23252c;
+  width: 550px;
+  height: 868px;
+  margin: auto;
+}
+
+.container-2 {
+  background-color: #1a1b21;
+  width: 317px;
+  height: 868px;
+  margin: auto;
+}
+
+.name {
+color: white;
+margin: auto;
+}
+
+.designation {
+    color: #F3BF99;
+  
+}
+
+.website {
+    color: #F5F5F5;
+}
+
+.container-3 {
+    
+}
