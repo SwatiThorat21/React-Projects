@@ -8,12 +8,12 @@ function App() {
   return (
     <div className="container-1">
       <div className="container-2">
-        <div className="container-3">
+      
           <Info />
           <About />
           <Interest />
           <Footer />
-        </div>
+     
       </div>
     </div>
   );

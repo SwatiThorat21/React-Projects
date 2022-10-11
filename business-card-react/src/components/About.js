@@ -1,9 +1,16 @@
 import React from "react";
 
-function About(){
-    return(
-        <h1>This is about</h1>
-    )
+function About() {
+  return (
+    <>
+      <h3 className="h3_heading">About</h3>
+      <p className="para">
+        I am a frontend developer with a particular interest in making things
+        simple and automating daily tasks. I try to keep up with security and
+        best practices, and am always looking for new things to learn.
+      </p>
+    </>
+  );
 }
 
-export default About
+export default About;

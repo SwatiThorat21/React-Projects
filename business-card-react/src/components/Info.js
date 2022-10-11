@@ -10,10 +10,12 @@ function Info() {
         Frontend Developer <i class="fa-solid fa-envelope"></i>
       </h3>
       <h4 className="website">swatithorat.website</h4>
-      <button>
-        Email <i class="fa-solid fa-envelope"></i>
-      </button>
-      <button>LinkedIn</button>
+      <div className="btn">
+        <button id="email_btn">
+          Email <i class="fa-solid fa-envelope"></i>
+        </button>
+        <button id="linkedin_btn">LinkedIn</button>
+      </div>
     </>
   );
 }
